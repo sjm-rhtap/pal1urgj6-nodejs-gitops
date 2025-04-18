@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: pal1urgj6-nodejs-repository
+spec:
+  url: https://github.com/sjm-rhtap/pal1urgj6-nodejs

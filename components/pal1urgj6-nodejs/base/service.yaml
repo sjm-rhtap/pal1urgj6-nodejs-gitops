@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata: 
+  labels: 
+    app.kubernetes.io/instance: pal1urgj6-nodejs
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: pal1urgj6-nodejs 
+  name: pal1urgj6-nodejs
+spec:
+  ports:
+  - port: 3001 
+    targetPort: 3001 
+  selector:
+    app.kubernetes.io/instance: pal1urgj6-nodejs 
